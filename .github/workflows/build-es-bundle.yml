@@ -10,14 +10,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: 'true'
-          
+      
+      - run: cd material-web
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
       - uses: google/wireit@setup-github-actions-caching/v1
-
-      - run: cd material-web
 
       - run: npm ci
 
