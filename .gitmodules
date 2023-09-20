@@ -1,0 +1,3 @@
+[submodule "material-web"]
+	path = material-web
+	url = https://github.com/material-components/material-web.git
