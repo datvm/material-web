@@ -1,0 +1,42 @@
+name: Build ES Bundle
+
+on:
+  workflow_dispatch
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+          
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+      - uses: google/wireit@setup-github-actions-caching/v1
+
+      - run: cd material-web
+
+      - run: npm ci
+
+      - run: npm run build
+        env:
+          WIREIT_FAILURES: continue
+
+      - run: npx esbuild --bundle --minify --format=esm --outfile=dist/bundle.esm.min.js all.js
+
+      - name: Archive bundle
+        uses: actions/upload-artifact@v3
+        with:
+          name: ESM Bundle
+          path: bundle.esm.min.js
+
+      - name: Commit bundle
+        run: |
+          git config --global user.name "Luke Vo"
+          git config --global user.email "datvm@outlook.com"
+          git add dist/bundle.esm.min.js -f
+          git commit -m "Added built ESM bundle"
+          git push origin main
