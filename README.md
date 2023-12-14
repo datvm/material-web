@@ -4,7 +4,7 @@ You can host it offline or serve through a CDN:
 
 - Latest build: https://cdn.jsdelivr.net/gh/datvm/material-web/dist/bundle.esm.min.js (you should not use integrity check with this link because it will change every time a new build is published).
 
-- With a tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v1.0.1/dist/bundle.esm.min.js
+- With a version tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v1.1.1/dist/bundle.esm.min.js
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v1.1.1/dist/bundle.esm.min.js" integrity="sha512-CoRz4QM5Uw1XYZe5D7dBF2bemtW50AsQotZChCrx+TpAPgK0eNfvtZqfziEGYP8z5uFwWSEoetPr2JzogfiTlw==" crossorigin="anonymous"></script>
