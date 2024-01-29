@@ -7,7 +7,7 @@ You can host it offline or serve through a CDN:
 - With a version tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v1.2.0/dist/bundle.esm.min.js
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v1.2.0/dist/bundle.esm.min.js" integrity="sha512-CoRz4QM5Uw1XYZe5D7dBF2bemtW50AsQotZChCrx+TpAPgK0eNfvtZqfziEGYP8z5uFwWSEoetPr2JzogfiTlw==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v1.2.0/dist/bundle.esm.min.js" integrity="sha512-NLukuZETke7Pve3nazUeJxhxveNL6BkDY0n0iyZsQSpbGzEdLZfmRYsdVzp6SF06JA6zLEi37+f6saeBMYOhlg==" crossorigin="anonymous"></script>
 ```
 
 or
