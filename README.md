@@ -4,16 +4,16 @@ You can host it offline or serve through a CDN:
 
 - Latest build: https://cdn.jsdelivr.net/gh/datvm/material-web/dist/bundle.esm.min.js (you should not use integrity check with this link because it will change every time a new build is published).
 
-- With a version tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v1.3.0/dist/bundle.esm.min.js
+- With a version tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v1.4.1/dist/bundle.esm.min.js
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v1.3.0/dist/bundle.esm.min.js" integrity="sha512-7B99rfbHiaAmjjYzV1Bxd7f8T2RyORop0KAeMVsZYqk/NRIVbGtSCf65DnQUcusFWzkpPhemEtZwY0Iat+g7lg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v1.4.1/dist/bundle.esm.min.js" integrity="sha512-Al0GmQ8qyxnaPrSqtlREJ5FG2fQVJIz59PJYzJyv4vNMArT9uO8gvHk/YXDES3a4uyfnWFCMl/OSOqf3/s3fYA==" crossorigin="anonymous"></script>
 ```
 
 or
 
 ```ts
-import "https://cdn.jsdelivr.net/gh/datvm/material-web@v1.3.0/dist/bundle.esm.min.js";
+import "https://cdn.jsdelivr.net/gh/datvm/material-web@v1.4.1/dist/bundle.esm.min.js";
 ```
 
 - Sometimes (probably only during pre-release), a build is made on a specific day. I will mark them with tags like: https://cdn.jsdelivr.net/gh/datvm/material-web@2023.09.26/dist/bundle.esm.min.js
