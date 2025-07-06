@@ -32,7 +32,7 @@ jobs:
           npx esbuild --bundle --minify --format=esm --outfile=../dist/bundle.esm.min.js all.js
 
       - name: Archive bundle
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ESM Bundle
           path: dist/bundle.esm.min.js
