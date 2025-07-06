@@ -7,13 +7,13 @@ You can host it offline or serve through a CDN:
 - With a version tag: https://cdn.jsdelivr.net/gh/datvm/material-web@v2.0.0/dist/bundle.esm.min.js
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v2.0.0/dist/bundle.esm.min.js" integrity="sha512-7Wlu/NMXmFGZLrV6yJFw2TK38br4VhX4cxQNuV0sJoMsdO1bemrR//MYSp2CJvvbdB/w/jnREDYZlSFbZ+rDLA==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/datvm/material-web@v2.3.0/dist/bundle.esm.min.js" integrity="sha512-TLpGTSV/cUxTevgUEUwUH4LVXidWUMN3uwMFtvTG+qGxY3MPrMDj+Q+BonJLmVaOPk0f0UxGKAEKNp7vm1iNVw==" crossorigin="anonymous"></script>
 ```
 
 or
 
 ```ts
-import "https://cdn.jsdelivr.net/gh/datvm/material-web@v2.0.0/dist/bundle.esm.min.js";
+import "https://cdn.jsdelivr.net/gh/datvm/material-web@v2.3.0/dist/bundle.esm.min.js";
 ```
 
 - Sometimes (probably only during pre-release), a build is made on a specific day. I will mark them with tags like: https://cdn.jsdelivr.net/gh/datvm/material-web@2023.09.26/dist/bundle.esm.min.js
